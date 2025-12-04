@@ -216,7 +216,7 @@ Provides:
 
 ## **9. Profile Page — `ProfilePage.jsx`**
 
-Displays the logged-in user information.
+Displays and Edit the logged-in user information.
 
 Includes:
 
@@ -225,7 +225,9 @@ Includes:
 * Email
 * Logout button
 
-<img width="2399" height="1599" alt="Screenshot 2025-12-03 222705" src="https://github.com/user-attachments/assets/25a0faea-1f64-46b3-8ab6-d9acf5a9ad01" />
+<img width="2396" height="1596" alt="image" src="https://github.com/user-attachments/assets/8799910e-279a-4cb3-aeda-2d4d53d41e20" />
+<img width="2398" height="1596" alt="image" src="https://github.com/user-attachments/assets/d77d8c34-4706-4763-b575-f19597b9cc1f" />
+
 
 ---
 
