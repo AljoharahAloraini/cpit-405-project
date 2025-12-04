@@ -83,7 +83,8 @@ It includes:
 * A “Let’s Go” call-to-action
 * Clean responsive layout
 
-**Screenshot:** <img width="2399" height="1599" alt="Screenshot 2025-12-03 222533" src="https://github.com/user-attachments/assets/e6af001f-e0e2-4cc7-9174-0294e5bb08af" />
+**Screenshot:** 
+<img width="2399" height="1599" alt="Screenshot 2025-12-03 222533" src="https://github.com/user-attachments/assets/38295229-37db-4a6b-88c2-34246180613e" />
 
 ---
 
@@ -97,7 +98,10 @@ It includes:
 * Firebase-based validation
 * Error handling & redirect
 
-**Screenshot:** <img width="2399" height="1591" alt="Screenshot 2025-12-03 222602" src="https://github.com/user-attachments/assets/97defd5e-bf5f-40e0-9a27-b0446f7bca9b" />
+**Screenshot:** 
+
+
+<img width="2399" height="1591" alt="Screenshot 2025-12-03 222602" src="https://github.com/user-attachments/assets/624f297e-46e4-4da0-947f-42c669927c8c" />
 
 ---
 
@@ -111,7 +115,10 @@ It includes:
 * Firebase registration
 * Redirect to home
 
-**Screenshot:** <img width="2395" height="1599" alt="Screenshot 2025-12-03 222619" src="https://github.com/user-attachments/assets/67009bf7-34a0-4248-a89a-f04fb98d58c2" />
+**Screenshot:**
+
+<img width="2395" height="1599" alt="Screenshot 2025-12-03 222619" src="https://github.com/user-attachments/assets/bd10d6d9-8e33-4345-9b0b-2f20f715b720" />
+
 
 ---
 
@@ -128,10 +135,10 @@ Contains:
 * Contact section
 
 **Screenshot:** 
-<img width="2396" height="1595" alt="Screenshot 2025-12-04 011344" src="https://github.com/user-attachments/assets/c266333d-cc9d-4206-9ab7-252b4c34314f" />
-<img width="2398" height="1599" alt="Screenshot 2025-12-04 011412" src="https://github.com/user-attachments/assets/53c61dc2-41e9-47e8-a8cc-e60d1ca5b999" />
-<img width="2397" height="1597" alt="Screenshot 2025-12-04 011434" src="https://github.com/user-attachments/assets/1e7553be-74cb-4dfb-8ab3-51b339f517dd" />
 
+<img width="2396" height="1595" alt="Screenshot 2025-12-04 011344" src="https://github.com/user-attachments/assets/1ba6fe7f-4f1f-4100-9ec6-9d46f72269b1" />
+<img width="2398" height="1599" alt="Screenshot 2025-12-04 011412" src="https://github.com/user-attachments/assets/368bbe0b-4668-4460-98aa-14a487baa20d" />
+<img width="2397" height="1597" alt="Screenshot 2025-12-04 011434" src="https://github.com/user-attachments/assets/4a940771-507b-466b-a397-81d5d40d292e" />
 ---
 
 ## **5. New Feasibility Study — `NewStudy.jsx`**
@@ -152,7 +159,10 @@ After submitting:
 * Saved to LocalStorage
 * Redirects to the results page
 
-**Screenshot:** <img width="2399" height="1527" alt="Screenshot 2025-12-03 222724" src="https://github.com/user-attachments/assets/830f1872-02a6-4de5-9071-7d1d9c887226" />
+**Screenshot:**
+
+<img width="2399" height="1527" alt="Screenshot 2025-12-03 222724" src="https://github.com/user-attachments/assets/c869d3f3-c473-4182-8c7f-bd02676c5b27" />
+
 
 ---
 
@@ -170,16 +180,15 @@ Displays a full feasibility report including:
 * Export to PDF
 
 **Screenshot:**
-<img width="2399" height="1598" alt="Screenshot 2025-12-03 223254" src="https://github.com/user-attachments/assets/1283d72f-910d-4e3d-997f-42b18e6ba9f7" />
-<img width="2397" height="1599" alt="Screenshot 2025-12-04 005847" src="https://github.com/user-attachments/assets/52b4d07f-9a70-462e-a265-59857f93b947" />
 
+<img width="2399" height="1598" alt="Screenshot 2025-12-03 223254" src="https://github.com/user-attachments/assets/bd80551c-cf1e-4754-84eb-e44daf30f149" />
+<img width="2397" height="1599" alt="Screenshot 2025-12-04 005847" src="https://github.com/user-attachments/assets/fac3c7a0-59e1-42bd-8647-a8efe1839b2a" />
 
 
 
 ## **PDF Sample:**
-
-<img width="779" height="1115" alt="Screenshot 2025-12-04 010031" src="https://github.com/user-attachments/assets/7495770e-c6a2-4bfe-bc18-fa4c35371a4a" />
-<img width="794" height="1129" alt="Screenshot 2025-12-04 010039" src="https://github.com/user-attachments/assets/8be6d5c2-18e6-4536-83a5-c38f7ba9b1f7" />
+<img width="779" height="1115" alt="Screenshot 2025-12-04 010031" src="https://github.com/user-attachments/assets/f1f9a176-7748-4422-a504-143a5e716f82" />
+<img width="794" height="1129" alt="Screenshot 2025-12-04 010039" src="https://github.com/user-attachments/assets/84a49f80-cc75-417e-98eb-a247e9294576" />
 
 
 ---
@@ -193,7 +202,9 @@ Features:
 * Load studies from LocalStorage
 * View/delete each study
 
-**Screenshot:** <img width="2399" height="1599" alt="Screenshot 2025-12-03 223207" src="https://github.com/user-attachments/assets/fa9bd563-1b7c-4144-8cbf-32d86003f0ef" />
+**Screenshot:**
+<img width="2399" height="1599" alt="Screenshot 2025-12-03 223207" src="https://github.com/user-attachments/assets/9a3ca6c1-da44-4033-8d8a-d87140c846c4" />
+
 
 ---
 
@@ -207,7 +218,9 @@ Provides:
 * Live API conversion
 * Clean responsive layout
 
-**Screenshot:** <img width="2386" height="1599" alt="Screenshot 2025-12-03 222803" src="https://github.com/user-attachments/assets/ce2a0fd1-5626-484e-8c5a-6b37b630e6a0" />
+**Screenshot:** 
+<img width="2386" height="1599" alt="Screenshot 2025-12-03 222803" src="https://github.com/user-attachments/assets/f2923f12-58d4-4311-8e3f-a2fc14a207b0" />
+
 
 ---
 
@@ -222,7 +235,9 @@ Includes:
 * Email
 * Logout button
 
-**Screenshot:** <img width="2399" height="1599" alt="Screenshot 2025-12-03 222705" src="https://github.com/user-attachments/assets/67160169-d598-4432-97ea-bcbcec300aeb" />
+**Screenshot:** 
+
+<img width="2399" height="1599" alt="Screenshot 2025-12-03 222705" src="https://github.com/user-attachments/assets/25a0faea-1f64-46b3-8ab6-d9acf5a9ad01" />
 
 ---
 
