@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-root {
+  min-height: 100vh;
+  background: #f5f7f6;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(25px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatSoft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-soft {
+  animation: floatSoft 4s ease-in-out infinite;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navbar {
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-bottom: 1px solid #e4e4e4;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+
+.nav-logo {
+  height: 70px;
+  animation: fadeUp 1s ease forwards;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  background: #063b35;
+  padding: 10px 25px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.nav-btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.profile-wrapper {
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 28px;
+  color: #063b35;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.profile-icon:hover {
+  transform: scale(1.15);
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  width: 160px;
+  padding: 8px 0;
+  animation: fadeUp 0.3s ease forwards;
+  z-index: 9999;
+}
+
+.dropdown-menu p {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #063b35;
+  transition: 0.2s;
+}
+
+.dropdown-menu p:hover {
+  background: #eaf7f3;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 90px;
+  background: #08312d;
+  color: white;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-desc {
+  opacity: 0.9;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.hero-logo-img {
+  width: 450px;
+}
+
+.about {
+  padding: 70px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #063b35;
+  font-weight: 800;
+}
+
+.about-text {
+  width: 70%;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.services {
+  padding: 70px;
+}
+
+.service-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.service-card {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  transition: 0.35s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-14px) scale(1.04);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.18);
+}
+
+.service-icon {
+  font-size: 55px !important;
+  margin-bottom: 20px;
+  color: #0e4f44;
+}
+
+.coming-soon {
+  position: relative;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.coming-soon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(1.5px);
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 18px;
+  z-index: 1;
+}
+
+.coming-soon::after {
+  content: "COMING SOON";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14px 34px;
+  border-radius: 14px;
+  font-size: 26px;
+  font-weight: 800;
+  background: rgba(40,40,40,0.35);
+  color: white;
+  z-index: 2;
+}
+
+.contact-section {
+  background: #062b27;
+  padding: 45px 90px 40px; 
+  color: white;
+}
+
+.contact-title {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 120px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(12px);
+}
+
+.contact-icon {
+  font-size: 28px;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #08312d;
+  color: white;
+  margin-top: 0;
+  opacity: 1 !important;   
+  transform: none !important;
+}

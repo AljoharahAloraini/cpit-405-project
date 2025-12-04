@@ -1,0 +1,191 @@
+
+.no-scroll-tools {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
+
+.tools-root {
+  min-height: 100vh;
+  background: #f5f7f6;
+  font-family: "Poppins", sans-serif;
+
+  
+  padding-top: 130px; 
+}
+
+
+.tools-navbar {
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-bottom: 1px solid #ddd;
+
+  position: fixed; 
+  top: 0;          
+  left: 0;        
+  width: 100%;     
+  z-index: 3000;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.back-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #063b35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.back-btn:hover {
+  background: #042f2a;
+}
+
+.tools-logo {
+  height: 60px;
+}
+
+.profile-wrapper {
+  position: relative;
+  z-index: 4000;
+}
+
+.profile-icon-t {
+  font-size: 32px;
+  color: #063b35;
+  cursor: pointer;
+}
+
+.dropdown-menu-t {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 170px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+  overflow: hidden;
+}
+
+.dropdown-menu-t p {
+  padding: 14px 18px;
+  margin: 0;
+  color: #063b35;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dropdown-menu-t p:hover {
+  background: #eaf7f3;
+}
+
+.tools-title {
+  text-align: center;
+  margin-top: 20px; 
+  font-size: 36px;
+  color: #063b35;
+  font-weight: 800;
+}
+
+.tools-subtitle {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.converter-card {
+  max-width: 600px;
+  margin: auto;
+
+  
+  margin-top: 10px; 
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+}
+
+.conv-input,
+.conv-select {
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid #0f3d3e;
+  background: #f1f4f3;
+  color: #063b35;
+  font-size: 16px;
+}
+
+
+.field-label {
+  font-weight: 700;
+  font-size: 15px;
+  color: #063b35;
+  margin-top: 12px;
+}
+
+
+.conv-btn {
+  padding: 14px;
+  border-radius: 12px;
+  background: #063b35;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.conv-btn:hover {
+  background: #042f2a;
+  transform: translateY(-3px);
+}
+
+.conv-result {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #063b35;
+}
+
+.improved-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.converter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.conv-input.wide {
+  flex: 1;
+}
+
+.conv-select.small {
+  width: 120px;
+}
+
+.small-btn {
+  padding: 14px 22px;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+.conv-result {
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #063b35;
+}

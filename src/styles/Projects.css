@@ -1,0 +1,139 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #eef4f4;
+}
+
+
+.projects-root {
+  min-height: 100vh;
+  animation: fadeIn 0.5s ease;
+}
+
+.page-title {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.page-title h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #08312d;
+  position: relative;
+}
+
+.page-title h1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #08312d;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 6px;
+}
+
+
+.projects-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 32px;
+  margin-top: 30px;
+}
+
+
+
+.project-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.07);
+  border: 1px solid #e8efef;
+  transition: 0.28s ease;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.p-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #082e2a;
+  margin: 0;
+}
+
+.industry-tag {
+  margin-top: 10px;
+  display: inline-block;
+  background: #e9f7f6;
+  color: #08443d;
+  padding: 7px 16px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.p-date {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #637775;
+  letter-spacing: 0.3px;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 22px;
+  width: 100%;
+}
+
+.btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+}
+
+.btn.view {
+  background: #08312d;
+  color: white;
+  box-shadow: 0 4px 10px rgba(8, 49, 45, 0.25);
+}
+
+.btn.view:hover {
+  background: #0e4a43;
+  transform: translateY(-3px);
+}
+
+.btn.delete {
+  background: #ff5c5c;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(255, 92, 92, 0.25);
+}
+
+.btn.delete:hover {
+  background: #e64242;
+  transform: translateY(-3px);
+}

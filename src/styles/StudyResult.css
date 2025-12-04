@@ -1,0 +1,146 @@
+
+.study-root {
+  min-height: 100vh;
+  background: #eef3f3;
+  padding-top: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.study-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 1000;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.back-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #08312d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.back-btn:hover {
+  background: #0f4a43;
+}
+
+.back-icon {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.nav-export-btn {
+  background: #063b35;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.nav-export-btn:hover {
+  background: #0e5a51;
+  transform: translateY(-3px);
+}
+
+.nav-profile {
+  font-size: 24px;
+  cursor: pointer;
+  color: #0a3932;
+}
+.result-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #063b35;
+}
+
+.result-container {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, 0.12);
+}
+
+.result-container section {
+  background: #f8fcfb;
+  border: 1px solid #dce7e5;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.result-container section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.result-container h2 {
+  font-size: 20px;
+  color: #063b35;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.result-container p,
+.result-container pre {
+  font-size: 15px;
+  color: #1a3632;
+  line-height: 1.7;
+}
+
+pre {
+  background: #e7f3f1;
+  padding: 14px;
+  border-radius: 12px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.finance-list p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #1a3632;
+}
+
+.finance-list strong {
+  color: #063b35;
+}
