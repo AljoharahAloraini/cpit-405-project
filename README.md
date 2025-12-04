@@ -83,7 +83,7 @@ It includes:
 * A “Let’s Go” call-to-action
 * Clean responsive layout
 
-**Screenshot:** 
+
 <img width="2399" height="1599" alt="Screenshot 2025-12-03 222533" src="https://github.com/user-attachments/assets/38295229-37db-4a6b-88c2-34246180613e" />
 
 ---
@@ -97,8 +97,6 @@ It includes:
 * Email/password login
 * Firebase-based validation
 * Error handling & redirect
-
-**Screenshot:** 
 
 
 <img width="2399" height="1591" alt="Screenshot 2025-12-03 222602" src="https://github.com/user-attachments/assets/624f297e-46e4-4da0-947f-42c669927c8c" />
@@ -114,8 +112,6 @@ It includes:
 * Full signup form
 * Firebase registration
 * Redirect to home
-
-**Screenshot:**
 
 <img width="2395" height="1599" alt="Screenshot 2025-12-03 222619" src="https://github.com/user-attachments/assets/bd10d6d9-8e33-4345-9b0b-2f20f715b720" />
 
@@ -133,8 +129,6 @@ Contains:
 * About section
 * Services
 * Contact section
-
-**Screenshot:** 
 
 <img width="2396" height="1595" alt="Screenshot 2025-12-04 011344" src="https://github.com/user-attachments/assets/1ba6fe7f-4f1f-4100-9ec6-9d46f72269b1" />
 <img width="2398" height="1599" alt="Screenshot 2025-12-04 011412" src="https://github.com/user-attachments/assets/368bbe0b-4668-4460-98aa-14a487baa20d" />
@@ -159,7 +153,6 @@ After submitting:
 * Saved to LocalStorage
 * Redirects to the results page
 
-**Screenshot:**
 
 <img width="2399" height="1527" alt="Screenshot 2025-12-03 222724" src="https://github.com/user-attachments/assets/c869d3f3-c473-4182-8c7f-bd02676c5b27" />
 
@@ -179,7 +172,6 @@ Displays a full feasibility report including:
 * ROI & Break-even
 * Export to PDF
 
-**Screenshot:**
 
 <img width="2399" height="1598" alt="Screenshot 2025-12-03 223254" src="https://github.com/user-attachments/assets/bd80551c-cf1e-4754-84eb-e44daf30f149" />
 <img width="2397" height="1599" alt="Screenshot 2025-12-04 005847" src="https://github.com/user-attachments/assets/fac3c7a0-59e1-42bd-8647-a8efe1839b2a" />
@@ -202,7 +194,6 @@ Features:
 * Load studies from LocalStorage
 * View/delete each study
 
-**Screenshot:**
 <img width="2399" height="1599" alt="Screenshot 2025-12-03 223207" src="https://github.com/user-attachments/assets/9a3ca6c1-da44-4033-8d8a-d87140c846c4" />
 
 
@@ -218,7 +209,6 @@ Provides:
 * Live API conversion
 * Clean responsive layout
 
-**Screenshot:** 
 <img width="2386" height="1599" alt="Screenshot 2025-12-03 222803" src="https://github.com/user-attachments/assets/f2923f12-58d4-4311-8e3f-a2fc14a207b0" />
 
 
@@ -234,8 +224,6 @@ Includes:
 * Username
 * Email
 * Logout button
-
-**Screenshot:** 
 
 <img width="2399" height="1599" alt="Screenshot 2025-12-03 222705" src="https://github.com/user-attachments/assets/25a0faea-1f64-46b3-8ab6-d9acf5a9ad01" />
 
