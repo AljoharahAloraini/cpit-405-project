@@ -6,14 +6,4 @@ export default defineConfig({
   
   base: "/cpit-405-project/",
 
-  server: {
-    proxy: {
-      "/zen": {
-        target: "https://zenquotes.io",
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/zen/, "")
-      }
-    }
-  }
 });
